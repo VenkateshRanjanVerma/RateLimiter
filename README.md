@@ -6,10 +6,3 @@ To prevent from DDoS attack (thousands and lakhs of requests are sent to the bac
 
 This is a simple implementation of a rate limiter in Java. The RateLimit class keeps track of the rate limit for a given API key and user ID. It uses a sliding window algorithm to check if the number of requests made within a specified window size exceeds the given limit.
 
-# RateLimiter
-To use the RateLimit class, simply create an instance of the class:
-![instance]Screenshots/instance.png)
-
-  <a href="https://github.com/github_username/repo_name">
-    <img src="[img/icon.svg](Screenshots/instance.png)" alt="Logo" width="80" height="80">
- 
