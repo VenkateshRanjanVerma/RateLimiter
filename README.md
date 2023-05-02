@@ -29,7 +29,7 @@ The userApiMap variable is a Map that associates a String user ID with another M
 <br><br><br><br>
 
 # Execution:
-Using the endpoint URL, when the request is sent by the client, if it is less than threshold limt size, it will display "sucessful" request.<br>
+Sending the endpoint URL in Postman, when the request is sent by the client, if it is less than threshold limt size, it will display "sucessful" request.<br>
 ![success](Screenshots/Postman1.png)<br><br>
 
 If it crosses the threshold, will display "Too many request, try again later"<br>
