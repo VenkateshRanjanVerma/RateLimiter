@@ -21,9 +21,8 @@ The RateLimit class uses a Map to keep track of the rate limit for each API key 
 <br><br>
 # Logic
 The LimitCounter class uses an array of timestamps to keep track of when requests were made. When a request is made, the tryAcquire() method checks if the current time minus the timestamp at the current index is greater than the window size. If it is, the timestamp at the current index is updated and the index is incremented. If the index reaches the end of the array, it wraps around to the beginning.
-<br> 
+<br> <br>
 HashMap is used to store and retrieve the rate limit counters for each user and API combination.
-
 The userApiMap variable is a Map that associates a String user ID with another Map that associates an API key with a LimitCounter object. This structure allows us to keep track of the rate limits for each user and API key combination.
 
 
